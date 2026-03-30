@@ -2,6 +2,20 @@
 
 A Python tool that captures step-by-step screenshots from Yardi Aspire training videos and generates HACSM-specific training documentation. Designed for the Housing Authority of the County of San Mateo (HACSM) to create customized training guides from Yardi Voyager video tutorials.
 
+## Screenshots
+
+### Training Video Library
+The tool connects to the Yardi Aspire Training Video Library and scans for all available training videos:
+
+![Training Video Library](training_video_library.png)
+
+### Sample Captured Step
+During capture, the tool takes screenshots at regular intervals as the video plays, capturing each step of the process:
+
+![Video Player - Title Screen](video_player_title.png)
+
+![Sample Captured Step - Schedule Appointments](sample_captured_step.png)
+
 ## Why This Tool?
 
 Yardi Aspire provides training videos, but HACSM's internal processes may differ from the generic Yardi workflow. This tool allows you to:
